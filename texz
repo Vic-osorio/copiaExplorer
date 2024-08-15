@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Centra la caja horizontalmente */
+    align-items: center; /* Centra la caja verticalmente */
+
+}
+
+ .container {
+    background-color: rgb(247, 247, 247);
+   
+    width: 80%;
+   
+}
+
+form{
+    width: 300px;
+    height: 400px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-end; /* Alinea los elementos hacia abajo */
+    align-items: center;
+}
+
+input{
+   
+    width: 60%;
+    padding: 15px;
+    margin: 8px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.navbar {
+    background-color: transparent;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  10px 20px;
+}
+
+#home{
+    color: white;
+}
+
+#btnSearch{
+    border: none;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+}
+
+#boton{
+    
+    background-color: black;
+    color: white;
+    width: 60%;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+_________________________________________
+
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/main.css">
+
+</head>
+
+<body>
+    <div class="navbar">
+
+    <div class="left">
+    <a id="home" href="./home.html"><img width="30px" src="../img/Home01.png    "></a>
+    </div>
+
+    <div class="right">
+    <input type="text" id="search" placeholder="Buscar Producto" required>
+    <button id="btnSearch"> <img width="30px" src="../img/bus.png"></button></div> 
+    </div>
+        
+    
+  
+
+
+<h1>DETALLES  </h1>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
